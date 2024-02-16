@@ -109,6 +109,20 @@ export const Appbar: FC = () => {
 
           <Box sx={{ flexGrow: 0 }}>
             <Button
+              size="large"
+              sx={{
+                color: '#ddd',
+                border: '2px solid #ddd',
+                borderRadius: '20px',
+                textTransform: 'none',
+                '&:hover': {
+                  border: '2px solid #fff',
+                },
+              }}>
+              Connect wallet
+            </Button>
+
+            <Button
               disableRipple
               onClick={handleOpenUserMenu}
               size="large"
