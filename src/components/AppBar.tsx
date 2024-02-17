@@ -13,6 +13,7 @@ import {
 import MenuIcon from '@mui/icons-material/Menu';
 import React, { FC } from 'react';
 import Image from 'next/image';
+// import { ConnectKitButton } from 'connectkit';
 export const Appbar: FC = () => {
   const pages = ['Home', 'About', 'How to Buy', 'Bridge', 'Tokenomics', 'Roadmap'];
   const settings = ['Ethereum', 'Avalanche', 'BSC', 'Arbitrum'];
@@ -108,6 +109,8 @@ export const Appbar: FC = () => {
           </Box>
 
           <Box sx={{ flexGrow: 0 }}>
+            {/* <ConnectKitButton></ConnectKitButton> */}
+
             <Button
               size="large"
               sx={{
